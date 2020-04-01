@@ -1,4 +1,5 @@
 Feature: Create an account
+  @SmokeTest
   Scenario: Creating account
 
     Given Go to the website

@@ -1,5 +1,6 @@
 package PageObjectModel;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
@@ -100,6 +101,7 @@ public class BuyItemPage extends AbstractClass {
     public void verifyingMyOrder() {
         String myExpected = "Your order on My Store is complete.";
         verifyOrder(orderCompleteSentence, myExpected);
+
     }
 
 
